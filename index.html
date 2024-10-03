@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Irineide Gonçalves</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2d8a57;
+            font-size: 2rem;
+            margin-top: 30px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .table-container {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2d8a57;
+            color: white;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer .social-icons {
+            margin-top: 10px;
+        }
+
+        footer .map-button {
+            display: inline-block;
+            background-color: #2d8a57;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        footer .map-button:hover {
+            background-color: #333;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 40px auto;
+        }
+
+        form label {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #2d8a57;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #333;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+                font-size: 1rem;
+            }
+
+            form {
+                width: 100%;
+                padding: 15px;
+            }
+
+            table, th, td {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            nav {
+                padding: 10px;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            form label, form input, form textarea {
+                font-size: 0.9rem;
+            }
+
+            table, th, td {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Consultório Irineide Gonçalves</h1>
+    <p>CRN: 11823</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#funcionamento">Como Funciona o Atendimento</a>
+    <a href="#precos">Tabela de Preços</a>
+    <a href="#contato">Agendar Consulta</a>
+</nav>
+
+<div class="container">
+    <h2 id="sobre">Sobre Mim</h2>
+    <div class="content">
+        <p>
+            Dra. Irineide Gonçalves, Nutricionista Clínica com Pós-Graduação em Nutrição Funcional e Fitoterapia!
+        </p>
+    </div>
+
+    <h2 id="funcionamento">Como Funciona o Atendimento</h2>
+    <div class="content">
+        <p>
+            Trabalho com duas modalidades de consulta:
+        </p>
+        <ul style="margin-bottom: 20px;">
+            <li><strong>Consulta Presencial:</strong></li>
+            <ul style="margin: 10px 0;">
+                <li>R$ 230,00 em até duas (2) vezes no cartão de crédito.</li>
+                <li>R$ 210,00 à vista.</li>
+            </ul>
+            <li><strong>Consulta On-line:</strong></li>
+            <ul style="margin: 10px 0;">
+                <li>R$ 170,00 em até duas (2) vezes no cartão de crédito.</li>
+                <li>R$ 160,00 à vista.</li>
+            </ul>
+            <li><strong>Retorno dentro de 50 dias:</strong> R$ 50,00.</li>
+            <li><strong>Combo casal:</strong> Valor mais acessível. Avaliar disponibilidade de horários com a nutri.</li>
+        </ul>
+        <p>
+            Nesse período, você será acompanhado remotamente pelo WhatsApp para esclarecimento de dúvidas ou ajustes.
+        </p>
+    </div>
+
+    <h2 id="precos">Tabela de Preços</h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Consulta Presencial</td>
+                    <td>R$ 230,00 (2x no cartão) / R$ 210,00 (à vista)</td>
+                </tr>
+                <tr>
+                    <td>Consulta On-line</td>
+                    <td>R$ 170,00 (2x no cartão) / R$ 160,00 (à vista)</td>
+                </tr>
+                <tr>
+                    <td>Retorno dentro de 50 dias</td>
+                    <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>Combo Casal</td>
+                    <td>A avaliar</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 id="contato">Agendar Consulta</h2>
+    <form id="agendamentoForm">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
+
+        <label for="data">Data Preferencial:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Alguma observação?" rows="4"></textarea>
+
+        <button type="submit">Agendar Consulta</button>
+    </form>
+</div>
+
+<footer>
+    <p>Endereço: R. Guaíra, 1622-1680 - Bom Jardim, Fortaleza - CE, 60731-660</p>
+    <a href="https://www.google.com/maps/search/?api=1&query=R.+Guaíra,+1622-1680+-+Bom+Jardim,+Fortaleza+-+CE,+60731-660" class="map-button" target="_blank">Ver no Mapa</a>
+    <div class="social-icons">
+        <a href="#" target="_blank">Facebook</a> |
+        <a href="#" target="_blank">Instagram</a> |
+        <a href="#" target="_blank">WhatsApp</a>
+    </div>
+    <p>&copy; 2024 Consultório Irineide Gonçalves. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    document.getElementById('agendamentoForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const nome = document.getElementById('nome').value;
+        const telefone = document.getElementById('telefone').value;
+        const data = document.getElementById('data').value;
+        const mensagem = document.getElementById('mensagem').value;
+
+        const mensagemCompleta = `Nome: ${nome}\nTelefone: ${telefone}\nData: ${data}\nMensagem: ${mensagem}`;
+        const numeroWhatsApp = '85991790443';
+        const urlWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagemCompleta)}`;
+
+        window.open(urlWhatsApp, '_blank');
+
+        alert("Consulta agendada com sucesso!\n\n" + mensagemCompleta);
+        this.reset();
+    });
+</script>
+
+</body>
+</html>
